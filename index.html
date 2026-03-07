@@ -59,6 +59,24 @@ a {
 a:hover {
   background: #00cc66;
 }
+     
+      body.claro {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  button {
+    margin-top: 16px;
+    padding: 10px 24px;
+    background: transparent;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+    
+    
     </style>
   </head>
   <body>
@@ -68,8 +86,15 @@ a:hover {
       <h2>Ingeniero Electrónico</h2>
       <p>Aprendiendo desarrollo fullstack desde cero.</p>
       <a href="https://github.com/aaprosperi">Ver mi GitHub</a>
+      <br><br>
+      <button onclick="cambiarTema()">🌙 Cambiar tema</button>
     </div>
-
+<script>
+  function cambiarTema() {
+    document.body.classList.toggle("claro");
+  }
+</script>
   </body>
 </html>
+
 
