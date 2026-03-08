@@ -48,6 +48,8 @@
 - **Lección 1** (`01_tipos_basicos.ts`) — `number`, `string`, `boolean`, `let`, `console.log()`
 - **Lección 2** (`02_funciones.ts`) — funciones con tipos en parámetros y return, `void`
 - **Lección 3** (`03_interfaces.ts`) — interfaces, propiedades opcionales con `?`
+- **Lección 4** (`04_arrays_objetos.ts`) — arrays tipados, forEach, map, filter, find, arrays de objetos
+- **Lección 5** (`05_clases.ts`) — clases, constructor, métodos, public/private/readonly, herencia con extends
 - Repo: github.com/pixan-ai/typescript-curso
 
 ### Conceptos clave entendidos
@@ -57,6 +59,10 @@
 - `void` = función que no regresa nada
 - `console.log()` = `print()` de Python
 - JSX/TSX = TypeScript mezclado con HTML (lo que usa Next.js)
+- `class` = molde para crear objetos (datos + comportamiento juntos)
+- `extends` = herencia, una clase recibe todo lo de otra y puede agregar más
+- `private` = solo accesible desde dentro de la clase
+- `readonly` = se puede leer pero no modificar desde afuera
 
 ---
 
@@ -96,7 +102,7 @@
 
 ## 📌 Próximos pasos (al iniciar nuevo chat)
 
-1. Continuar TypeScript desde Lección 4 (arrays y objetos)
+1. Continuar TypeScript desde Lección 6 (módulos y tipos avanzados)
 2. Repo: github.com/pixan-ai/typescript-curso
 3. Abrir en github.dev para leer/editar
 
@@ -111,3 +117,4 @@
 - Hablar en español siempre
 - Cuando algo no queda claro, pregunta hasta entender — muy buena señal
 - Resuelve problemas solo cuando puede (usó Ctrl+. para arreglar un error de interfaz)
+- Ritmo ágil — avanza rápido cuando el tema está claro, sin necesidad de pausa
