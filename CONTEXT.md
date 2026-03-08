@@ -50,6 +50,7 @@
 - **Lección 3** (`03_interfaces.ts`) — interfaces, propiedades opcionales con `?`
 - **Lección 4** (`04_arrays_objetos.ts`) — arrays tipados, forEach, map, filter, find, arrays de objetos
 - **Lección 5** (`05_clases.ts`) — clases, constructor, métodos, public/private/readonly, herencia con extends
+- **Lección 6** (`06_tipos_avanzados.ts`) — union types, type alias, optional chaining `?.`, nullish coalescing `??`, generics `<T>`
 - Repo: github.com/pixan-ai/typescript-curso
 
 ### Conceptos clave entendidos
@@ -63,6 +64,10 @@
 - `extends` = herencia, una clase recibe todo lo de otra y puede agregar más
 - `private` = solo accesible desde dentro de la clase
 - `readonly` = se puede leer pero no modificar desde afuera
+- `type X = A | B` = union type, el valor puede ser de varios tipos
+- `?.` = optional chaining, accede sin error si el valor no existe
+- `??` = nullish coalescing, usa un default si el valor es null/undefined
+- `<T>` = generic, código reutilizable que funciona con cualquier tipo
 
 ---
 
@@ -92,7 +97,7 @@
 
 | Etapa | Enfoque |
 |-------|---------|
-| 1 (actual) | TypeScript — tipos, funciones, interfaces, arrays, clases |
+| 1 (actual) | TypeScript — tipos, funciones, interfaces, arrays, clases, tipos avanzados |
 | 2 | Next.js — componentes, páginas, rutas |
 | 3 | PostgreSQL + Supabase + app real |
 | 4 | Docker + deploy en Railway |
@@ -102,7 +107,7 @@
 
 ## 📌 Próximos pasos (al iniciar nuevo chat)
 
-1. Continuar TypeScript desde Lección 6 (módulos y tipos avanzados)
+1. Continuar TypeScript desde Lección 7 (async/await y fetch de APIs)
 2. Repo: github.com/pixan-ai/typescript-curso
 3. Abrir en github.dev para leer/editar
 
